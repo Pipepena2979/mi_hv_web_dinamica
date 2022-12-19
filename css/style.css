@@ -1,0 +1,155 @@
+
+body{
+    background-color: lightblue;
+    width: 1000px;
+    margin: 0 auto;
+    }
+figure{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: darkgray;
+        float: left;
+        transition: 3s;
+        margin: 0;
+        }
+        #titulo{
+        width: 800px;
+        height: 100px;
+        background: white;
+        float: left;
+        }
+        #subtitulo{
+        width: 800px;
+        height: 100px;
+        background: lavender;
+        float: left;
+    }
+
+    #titulo p{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-left: 60px;
+        font-weight: bold;
+        }
+        #subtitulo p{
+        font-size: 30px;
+        margin-left: 60px;
+        font-weight: bold;
+        } 
+        nav{
+            width: 1000px;
+            height: 60px;
+            background: black;
+            float: left;
+            }
+            nav ul li{
+            display: inline-block;
+            margin: 5px;
+            }
+            nav ul li a{
+            color:white;
+            font-size:17px;
+            text-decoration: none;
+            transition: .3s;
+            }
+            nav ul li a:hover{
+            font-size: 25px;
+            color:cyan;
+            }
+            nav ul li #contacto:hover{
+            font-size: 25px;
+            color: cyan;
+            } 
+section, aside{
+display: inline-block;
+margin: 5px 0px 0px;
+vertical-align: top;
+text-align: justify;
+}
+section{
+border: 2px solid grey;
+border-radius: 5px;
+font-size: 1.2em;
+text-align: justify;
+padding: 10px;
+}
+#articulos {
+    width: 570px;
+}
+#miarticulo {
+    width: 975px;
+    font-weight: 100px;
+    }
+#article1{
+width: 100%;
+float: left;
+background-color: salmon;
+}
+#article2{
+width: 100%;
+float: left;
+background-color: lemonchiffon;
+}
+aside{
+width: 378px;
+position: relative;
+border: 2px solid grey;
+font-size: 1.3em;
+border-radius: 5px;
+padding: 10px;
+color: black (0 0 0);
+font-size: 2.27em;
+}
+section, aside{
+display: inline-block;
+margin: 5px 0px 0px;
+vertical-align: top;
+text-align: justify;
+}
+#mi_proyecto{
+    width: 100%;
+    }
+    section p{
+    padding: 0px 10px ;
+    }
+    section h4 p{
+    margin: -15px 0px;
+    } 
+    .redes {
+        height: 200px;
+        background: #84acbf;
+        padding: 30px;   
+    }
+    .redes h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .sociales {
+       text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sociales li {
+      display: inline-block;
+    } 
+.sociales a {
+    padding: 10px;
+}  
+.labelTab1 {
+ text-align: left;
+ font-family: sans-serif;
+ font-style: italic;
+ font-size: 0.6em;
+ color: rgba(36, 59, 112, 0.705);
+} 
+.titulotabla {
+    background-color: rgb(200, 238, 248);
+    text-align: center;
+    font-weight: bold;
+}
+.tabla {
+    background-color: rgb(200, 238, 248);
+}

@@ -1,0 +1,45 @@
+section{
+    border: 0px solid grey;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    width: 570px;
+}
+button {
+    background: rgb(49, 49, 49);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 485px;
+}
+#boton:hover {
+    cursor: pointer;
+}
+
+aside {
+    border: 0px;
+    font-size: 1.2em;
+}section{
+    border: 0px solid grey;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    width: 570px;
+}
+button {
+    background: rgb(49, 49, 49);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 485px;
+}
+#boton:hover {
+    cursor: pointer;
+}
+
+aside {
+    border: 0px;
+    font-size: 1.2em;
+}
